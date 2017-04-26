@@ -1,6 +1,6 @@
 # npmdoc-co-mysql
 
-#### api documentation for  [co-mysql (v1.0.0)](https://github.com/coderhaoxin/co-mysql)  [![npm package](https://img.shields.io/npm/v/npmdoc-co-mysql.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-co-mysql) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-co-mysql.svg)](https://travis-ci.org/npmdoc/node-npmdoc-co-mysql)
+#### basic api documentation for  [co-mysql (v1.0.0)](https://github.com/coderhaoxin/co-mysql)  [![npm package](https://img.shields.io/npm/v/npmdoc-co-mysql.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-co-mysql) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-co-mysql.svg)](https://travis-ci.org/npmdoc/node-npmdoc-co-mysql)
 
 #### a mysql wrapper for co or koa
 
@@ -79,7 +79,8 @@
         "test-cov": "node --harmony node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -R dot -t 5000 test/*.js",
         "test-travis": "node --harmony node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- -R dot -t 5000 test/*.js"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
